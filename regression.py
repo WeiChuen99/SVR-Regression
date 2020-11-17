@@ -23,9 +23,6 @@ from math import sqrt
 import sklearn.metrics as sm
 from sklearn.model_selection import train_test_split
 
-from google.colab import files
-uploaded = files.upload()
-
 data = pd.read_csv("Metro_Interstate_Traffic_Volume.csv")
 data.head()
 
